@@ -1,0 +1,5 @@
+{
+  "name": "Yin-Shu AI Admin Dashboard",
+  "description": "An admin dashboard for Yin-Shu AI to monitor key metrics and manage users, songs, and comments. It provides insights into API model usage, balances, generation statistics, and offers simple management tools.",
+  "requestFramePermissions": []
+}
