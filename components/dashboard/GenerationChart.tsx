@@ -27,7 +27,7 @@ const GenerationChart: React.FC = () => {
         <Legend />
         <Line type="monotone" dataKey="S" stroke="#8884d8" activeDot={{ r: 8 }} />
         <Line type="monotone" dataKey="M" stroke="#82ca9d" />
-        <Line type="monotone" dataKey="T" stroke="#ffc658" />
+        <Line type="monotone" dataKey="YS" stroke="#ffc658" />
       </LineChart>
     </ResponsiveContainer>
   );

@@ -1,6 +1,14 @@
+
 import React from 'react';
 import type { View } from '../../App';
-import { DashboardIcon, ManagementIcon, MusicNoteIcon } from '../icons/Icons';
+import { 
+  DashboardIcon, 
+  ManagementIcon, 
+  MusicNoteIcon, 
+  CurrencyDollarIcon, 
+  GlobeAltIcon, 
+  CpuChipIcon 
+} from '../icons/Icons';
 
 interface SidebarProps {
   activeView: View;
@@ -9,8 +17,11 @@ interface SidebarProps {
 
 const Sidebar: React.FC<SidebarProps> = ({ activeView, setActiveView }) => {
   const navItems = [
-    { id: 'dashboard', label: '数据看板', icon: <DashboardIcon /> },
-    { id: 'management', label: '内容管理', icon: <ManagementIcon /> },
+    { id: 'overview', label: '核心概览', icon: <DashboardIcon /> },
+    { id: 'growth', label: '用户与增长', icon: <GlobeAltIcon /> },
+    { id: 'generation', label: '模型与生产', icon: <CpuChipIcon /> },
+    { id: 'finance', label: '财务分析', icon: <CurrencyDollarIcon /> },
+    { id: 'management', label: '运营管理', icon: <ManagementIcon /> },
   ];
 
   return (

@@ -27,7 +27,7 @@ const DurationChart: React.FC = () => {
         <Legend />
         <Bar dataKey="S" fill="#8884d8" name="模型 S" />
         <Bar dataKey="M" fill="#82ca9d" name="模型 M" />
-        <Bar dataKey="T" fill="#ffc658" name="模型 T" />
+        <Bar dataKey="YS" fill="#ffc658" name="模型 YS" />
       </BarChart>
     </ResponsiveContainer>
   );
